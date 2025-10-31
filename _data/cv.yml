@@ -1,97 +1,103 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jingwen Zhang
+    - name: Email
+      value: jz2388@cornell.edu
     - name: Languages
-      value: English, German
+      value: English, Chinese(Mandarin)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Science in Design (Advanced Architectural Design)
+      institution: University of Pennsylvania, Philadelphia, PA, US
+      year: 2023 - 2024
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: Bachelor of Architecture
+      institution: Tsinghua University, Beijing, China
+      year: 2017 - 2021
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Aide - Urbano Project
+      institution: Cornell University College of Architecture, Art, and Planning
+      year: 2024 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Processed travel records data across 7 states as preparation for model training.
+        - Trained ONNX-based behavior models for multi-scale urban mobility simulation.
+        - Developed Grasshopper components for data import, climate access, and simulation setup.
+        - Implemented validation framework comparing predicted and observed behavior.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Thesis Project – Daylight Fairness in Architecture
+      institution: Tsinghua University
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Investigated daylight fairness and environmental comfort through data-driven simulation.
+        - Built a parametric daylight workflow processing 480k illuminance samples.
+        - Proposed a “Daylight Equity Index” for evaluating indoor lighting fairness.
+    - title: Blind New World – Interactive Installation Project
+      institution: Tsinghua University, Interactive Design Studio
+      year: 2021
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Designed multi-user immersive installation using Arduino and projection mapping.
+        - Created layered color projection and tangible interface for multi-user interaction.
+        - Conducted user studies to evaluate perception and behavior.
+        
+- title: Honors & Leadership
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Third Place – Solar Decathlon China (SDC), Team THU
+      institution: 2021 Competition
+      year: Aug 2022
+      description:
+        - Work with Most Potential for Sustainable Development
+    - title: Tsinghua Alumni – Longhu Scholarship
+      year: Oct 2022
+      description:
+        - For outstanding academic performance
+    - title: Tsinghua University Scholarship (Huang Yicong Foundation)
+      year: Dec 2021
+      description:
+        - For well-rounded excellence
+    - title: Tsinghua University Scholarship
+      year: Dec 2020
+      description:
+        - For outstanding performance in art and recreation
+    - title: Director – Art & Recreation Department, Student Council (School of Architecture)
+      year: 2019 – 2021
+    - title: Leader – Graphic Design Team, Student Council (Tsinghua University)
+      year: 2020 – 2021
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C#, Arduino, C, PostgreSQL (data query)
+    - title: Data Analysis
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - SPSS, Excel
+    - title: Modeling & Simulation
+      items:
+        - Grasshopper, Rhinoceros, Houdini, SketchUp
+    - title: Visualization & Rendering
+      items:
+        - V-Ray, Blender, KeyShot, Adobe Suite
+    - title: Fabrication
+      items:
+        - 3D Printing, CNC, Robotic Fabrication, Laser Cutting, Thermal Forming

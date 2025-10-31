@@ -1,0 +1,54 @@
+/* === Global gutters: keep side paddings on all pages === */
+
+/* 统一控制所有容器与窗口边界的距离 */
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-fluid,
+.about,
+.content,
+.page,
+.post,
+// .cv,
+.projects,
+.section,
+.wrapper {
+  /* 用逻辑属性，双向同时设置 */
+  padding-inline: clamp(16px, 4vw, 32px); /* 小屏≥16px，大屏≈32px，可自行调 */
+}
+
+/* 如果导航栏里的容器也需要留白（有的主题 header 使用 .container） */
+// header .container,
+// .navbar .container {
+//   padding-inline: clamp(12px, 3vw, 24px);
+// }
+
+/* 防止极窄屏时内容贴边，稍微收紧一点 */
+@media (max-width: 480px) {
+  .container,
+  .container-fluid,
+  .content,
+  .page,
+  .post,
+  // .cv,
+  .projects,
+  .section,
+  .wrapper {
+    padding-inline: 15px;
+  }
+}
+
+.post-title a[target="_blank"] i.ti-file-download {
+  font-size: 2rem;
+  color: var(--global-text-color-light);
+  opacity: 0.8;
+  vertical-align:bottom;
+}
+.post-title a[target="_blank"]:hover i.ti-file-download {
+  color: var(--global-theme-color);
+  opacity: 1;
+  transform: scale(1.2);
+  transition: all 0.25s ease;
+}

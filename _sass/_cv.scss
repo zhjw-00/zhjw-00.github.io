@@ -53,13 +53,13 @@ i.iconlocation {
 }
 
 i.iconinstitution {
-  color: var(--global-theme-color);
+  color: var(--global-text-color-light);
   font-size: 0.95rem;
   margin-right: 0.3rem;
 }
 
 i.icondepartment {
-  color: var(--global-theme-color);
+  color: var(--global-text-color-light);
   font-size: 0.8rem;
   margin-right: 0.3rem;
 }
@@ -175,7 +175,7 @@ ul.timeline li {
 
 span.badge-toc {
   color: var(--global-bg-color);
-  background-color: var(--global-theme-color);
+  background-color: var(--global-footer-text-color);
   border-radius: 0.125rem;
   padding: 0.125rem 0.5rem 0.125rem 0.5rem;
   font-weight: 700 !important;

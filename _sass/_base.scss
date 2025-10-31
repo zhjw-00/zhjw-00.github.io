@@ -41,7 +41,7 @@ table.table a {
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
@@ -296,6 +296,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-nav .nav-item.active > .nav-link {
+    text-decoration: line-through;
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
@@ -400,8 +401,9 @@ ul.task-list input[type="checkbox"] {
 .social {
   text-align: center;
 
+  margin-top: 3rem;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.2rem;
 
     a {
       img {
@@ -519,7 +521,7 @@ footer.sticky-bottom {
 
       .badge {
         color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        background-color: var(--global-footer-bg-color) !important;
       }
     }
   }
@@ -669,12 +671,23 @@ footer.sticky-bottom {
       .card-title {
         color: var(--global-theme-color);
       }
+      .card{
+        transform: scale(1.05);
+        transition: 0.25s;
+      }
     }
   }
 
   .card {
+    .card-title {
+      font-size: 1.5rem;
+    }
     img {
       width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      object-position: center;
+      display: block;
     }
   }
 
