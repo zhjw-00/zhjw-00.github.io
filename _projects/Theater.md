@@ -135,7 +135,7 @@ If we make all the creases and edges of surfaces aligned with structures, boundi
         {% include figure.liquid path="assets/img/Theater/plan2.jpg" title="Plan" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Theater/plan3&4.jpg" title="Plan" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Theater/Plan3&4.jpg" title="Plan" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
