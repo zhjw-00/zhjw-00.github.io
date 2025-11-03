@@ -402,23 +402,33 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+          section: "News",},{id: "projects-data-grid",
+          title: 'DATA-GRID',
+          description: "2023 FallKey Word: Data Center; Prototype Hybrid; 3D Printing Model; Model Assemble Design",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
+              window.location.href = "/projects/Data/";
             },},{id: "projects-life-express-project",
           title: 'LIFE EXPRESS PROJECT',
           description: "2022 FallKey Word: Community Logistics Service Center",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Express/";
+            },},{id: "projects-beijing-precipitation-data-visualization",
+          title: 'BEIJING PRECIPITATION DATA VISUALIZATION',
+          description: "2023 WinterKey Word: Grasshopper; Data Visualization; Graphic Design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Graphic/";
             },},{id: "projects-blind-new-world",
-          title: 'Blind New World',
+          title: 'BLIND NEW WORLD',
           description: "2021 FallKey Word: Tangible Interactive Installation; Immersive Environment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Interactive/";
-            },},{id: "projects-theater",
-          title: 'Theater',
+            },},{id: "projects-melting",
+          title: 'MELTING...',
+          description: "2024 SummerKey Word: Integrated Fabrication; Material Experiment; Robotic Fabrication; Panelization",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Melting/";
+            },},{id: "projects-theirter",
+          title: 'THEIRter',
           description: "2024 SpringKey Word: Theater Design; Geometry Panalization; Grasshopper-based design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Theater/";
