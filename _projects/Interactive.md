@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blind New World
+title: BLIND NEW WORLD
 description: "<strong>2021 Fall</strong><br><strong>Key Word:</strong> Tangible Interactive Installation; Immersive Environment"
 img: assets/img/BlindNewWorld/Cover.png
 importance: 3

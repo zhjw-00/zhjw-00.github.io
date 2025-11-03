@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theater
+title: THEIRter
 description: "<strong>2024 Spring</strong><br><strong>Key Word:</strong> Theater Design; Geometry Panalization; Grasshopper-based design"
 img: assets/img/Theater/ExteriorRender.jpg
 importance: 4
