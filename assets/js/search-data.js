@@ -402,46 +402,56 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-data-grid",
-          title: 'DATA-GRID',
-          description: "2023 FallKey Word: Data Center; Prototype Hybrid; 3D Printing Model; Model Assemble Design",
+          section: "News",},{id: "projects-urbano",
+          title: 'Urbano',
+          description: "2024 Fall - PresentKey Word: Mobility modelling and simulation in Rhino &amp; Grasshopper",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Data/";
-            },},{id: "projects-life-express-project",
-          title: 'LIFE EXPRESS PROJECT',
-          description: "2022 FallKey Word: Community Logistics Service Center",
+              window.location.href = "/projects/1-Urbano/";
+            },},{id: "projects-arch-beneath",
+          title: 'ARCH BENEATH',
+          description: "2021 SpringKey Word: Innovation Community; College building design",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Express/";
-            },},{id: "projects-beijing-precipitation-data-visualization",
-          title: 'BEIJING PRECIPITATION DATA VISUALIZATION',
-          description: "2023 WinterKey Word: Grasshopper; Data Visualization; Graphic Design",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Graphic/";
-            },},{id: "projects-blind-new-world",
-          title: 'BLIND NEW WORLD',
-          description: "2021 FallKey Word: Tangible Interactive Installation; Immersive Environment",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Interactive/";
-            },},{id: "projects-melting",
-          title: 'MELTING...',
-          description: "2024 SummerKey Word: Integrated Fabrication; Material Experiment; Robotic Fabrication; Panelization",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Melting/";
-            },},{id: "projects-theirter",
-          title: 'THEIRter',
-          description: "2024 SpringKey Word: Theater Design; Geometry Panalization; Grasshopper-based design",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Theater/";
+              window.location.href = "/projects/10-ArchBeneath/";
             },},{id: "projects-thesis",
           title: 'Thesis',
           description: "2023 SpringKey Word: Thesis; Light Environement; School classroom lighting environment; Daylighting standards; Daylighting simulation; Climate Studio",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Thesis/";
-            },},{id: "projects-urbano",
-          title: 'Urbano',
-          description: "2024 Fall - PresentKey Word: Mobility modelling and simulation in Rhino &amp; Grasshopper",
+              window.location.href = "/projects/2-Thesis/";
+            },},{id: "projects-blind-new-world",
+          title: 'BLIND NEW WORLD',
+          description: "2021 FallKey Word: Tangible Interactive Installation; Immersive Environment",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Urbano/";
+              window.location.href = "/projects/3-Interactive/";
+            },},{id: "projects-theirter",
+          title: 'THEIRter',
+          description: "2024 SpringKey Word: Theater Design; Geometry Panalization; Grasshopper-based design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4-Theater/";
+            },},{id: "projects-life-express-project",
+          title: 'LIFE EXPRESS PROJECT',
+          description: "2022 FallKey Word: Community Logistics Service Center",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5-Express/";
+            },},{id: "projects-beijing-precipitation-data-visualization",
+          title: 'BEIJING PRECIPITATION DATA VISUALIZATION',
+          description: "2023 WinterKey Word: Grasshopper; Data Visualization; Graphic Design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6-Graphic/";
+            },},{id: "projects-data-grid",
+          title: 'DATA-GRID',
+          description: "2023 FallKey Word: Data Center; Prototype Hybrid; 3D Printing Model; Model Assemble Design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7-Data/";
+            },},{id: "projects-melting",
+          title: 'MELTING...',
+          description: "2024 SummerKey Word: Integrated Fabrication; Material Experiment; Robotic Fabrication; Panelization",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8-Melting/";
+            },},{id: "projects-asynchronous-culture-generator",
+          title: 'Asynchronous Culture Generator',
+          description: "2021 SpringKey Word: Urbano Complex Design, cultural heritage block renew",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9-Hufangqiao/";
             },},{
         id: 'social-email',
         title: 'email',
